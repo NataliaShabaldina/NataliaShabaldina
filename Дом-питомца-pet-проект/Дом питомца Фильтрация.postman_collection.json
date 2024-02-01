@@ -1,0 +1,1712 @@
+{
+	"info": {
+		"_postman_id": "cc6495e5-a2aa-47c2-a572-7cd9d8174c5a",
+		"name": "Дом питомца Фильтрация",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30035356"
+	},
+	"item": [
+		{
+			"name": "pairwise1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=0&gender_code=девочка&breed_code=сибирская кошка&species_name=кошка",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "0"
+						},
+						{
+							"key": "gender_code",
+							"value": "девочка"
+						},
+						{
+							"key": "breed_code",
+							"value": "сибирская кошка"
+						},
+						{
+							"key": "species_name",
+							"value": "кошка"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=0&breed_code=корги&species_name=собака",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "0"
+						},
+						{
+							"key": "breed_code",
+							"value": "корги"
+						},
+						{
+							"key": "species_name",
+							"value": "собака"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=0&gender_code=мальчик&breed_code=корелла&species_name=попугай",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "0"
+						},
+						{
+							"key": "gender_code",
+							"value": "мальчик"
+						},
+						{
+							"key": "breed_code",
+							"value": "корелла"
+						},
+						{
+							"key": "species_name",
+							"value": "попугай"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise4",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=0&gender_code=девочка&breed_code=немецкая овчарка&species_name=кот",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "0"
+						},
+						{
+							"key": "gender_code",
+							"value": "девочка"
+						},
+						{
+							"key": "breed_code",
+							"value": "немецкая овчарка"
+						},
+						{
+							"key": "species_name",
+							"value": "кот"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise5",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=1&gender_code=девочка&breed_code=корги&species_name=попугай",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "1"
+						},
+						{
+							"key": "gender_code",
+							"value": "девочка"
+						},
+						{
+							"key": "breed_code",
+							"value": "корги"
+						},
+						{
+							"key": "species_name",
+							"value": "попугай"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise6",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=1&breed_code=корелла&species_name=кот",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "1"
+						},
+						{
+							"key": "breed_code",
+							"value": "корелла"
+						},
+						{
+							"key": "species_name",
+							"value": "кот"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise7",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=1&gender_code=девочка",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "1"
+						},
+						{
+							"key": "gender_code",
+							"value": "девочка"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise8",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=1&species_name=кошка",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "1"
+						},
+						{
+							"key": "species_name",
+							"value": "кошка"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise9",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=1&gender_code=мальчик&breed_code=сибирская кошка&species_name=собака",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "1"
+						},
+						{
+							"key": "gender_code",
+							"value": "мальчик"
+						},
+						{
+							"key": "breed_code",
+							"value": "сибирская кошка"
+						},
+						{
+							"key": "species_name",
+							"value": "собака"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise10",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=2&breed_code=немецкая овчарка",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "2"
+						},
+						{
+							"key": "breed_code",
+							"value": "немецкая овчарка"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise11",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=2&gender_code=мальчик&species_name=кошка",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "2"
+						},
+						{
+							"key": "gender_code",
+							"value": "мальчик"
+						},
+						{
+							"key": "species_name",
+							"value": "кошка"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise12",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=2&gender_code=девочка&species_name=собака",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "2"
+						},
+						{
+							"key": "gender_code",
+							"value": "девочка"
+						},
+						{
+							"key": "species_name",
+							"value": "собака"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise13",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=2&breed_code=сибирская кошка&species_name=попугай",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "2"
+						},
+						{
+							"key": "breed_code",
+							"value": "сибирская кошка"
+						},
+						{
+							"key": "species_name",
+							"value": "попугай"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise14",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=2&gender_code=мальчик&breed_code=корги&species_name=кот",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "2"
+						},
+						{
+							"key": "gender_code",
+							"value": "мальчик"
+						},
+						{
+							"key": "breed_code",
+							"value": "корги"
+						},
+						{
+							"key": "species_name",
+							"value": "кот"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise15",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=2&gender_code=девочка&breed_code=корелла",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "2"
+						},
+						{
+							"key": "gender_code",
+							"value": "девочка"
+						},
+						{
+							"key": "breed_code",
+							"value": "корелла"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise16",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?gender_code=мальчик&species_name=попугай",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "gender_code",
+							"value": "мальчик"
+						},
+						{
+							"key": "species_name",
+							"value": "попугай"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise17",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?gender_code=девочка&breed_code=сибирская кошка&species_name=кот",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "gender_code",
+							"value": "девочка"
+						},
+						{
+							"key": "breed_code",
+							"value": "сибирская кошка"
+						},
+						{
+							"key": "species_name",
+							"value": "кот"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise18",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?breed_code=корги",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "breed_code",
+							"value": "корги"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise19",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?gender_code=мальчик&breed_code=корелла",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "gender_code",
+							"value": "мальчик"
+						},
+						{
+							"key": "breed_code",
+							"value": "корелла"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise20",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?gender_code=девочка&breed_code=немецкая овчарка&species_name=кошка",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "gender_code",
+							"value": "девочка"
+						},
+						{
+							"key": "breed_code",
+							"value": "немецкая овчарка"
+						},
+						{
+							"key": "species_name",
+							"value": "кошка"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise21",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?species_name=собака",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "species_name",
+							"value": "собака"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise22",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=0&breed_code=корелла&species_name=кошка",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "0"
+						},
+						{
+							"key": "breed_code",
+							"value": "корелла"
+						},
+						{
+							"key": "species_name",
+							"value": "кошка"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise23",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=0&gender_code=мальчик&breed_code=немецкая овчарка&species_name=собака",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "0"
+						},
+						{
+							"key": "gender_code",
+							"value": "мальчик"
+						},
+						{
+							"key": "breed_code",
+							"value": "немецкая овчарка"
+						},
+						{
+							"key": "species_name",
+							"value": "собака"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise24",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=0&species_name=кот",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "0"
+						},
+						{
+							"key": "species_name",
+							"value": "кот"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise25",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=0&gender_code=мальчик&breed_code=сибирская кошка",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "0"
+						},
+						{
+							"key": "gender_code",
+							"value": "мальчик"
+						},
+						{
+							"key": "breed_code",
+							"value": "сибирская кошка"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise26",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=1&breed_code=немецкая овчарка&species_name=попугай",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "1"
+						},
+						{
+							"key": "breed_code",
+							"value": "немецкая овчарка"
+						},
+						{
+							"key": "species_name",
+							"value": "попугай"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise27",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=1&gender_code=мальчик&species_name=кот",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "1"
+						},
+						{
+							"key": "gender_code",
+							"value": "мальчик"
+						},
+						{
+							"key": "species_name",
+							"value": "кот"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise28",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=1&breed_code=сибирская кошка",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "1"
+						},
+						{
+							"key": "breed_code",
+							"value": "сибирская кошка"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise29",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=1&gender_code=мальчик&breed_code=корги&species_name=кошка",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "1"
+						},
+						{
+							"key": "gender_code",
+							"value": "мальчик"
+						},
+						{
+							"key": "breed_code",
+							"value": "корги"
+						},
+						{
+							"key": "species_name",
+							"value": "кошка"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pairwise30",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://158.160.56.133/api/pet/?age=1&gender_code=девочка&breed_code=корелла&species_name=собака",
+					"protocol": "http",
+					"host": [
+						"158",
+						"160",
+						"56",
+						"133"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "1"
+						},
+						{
+							"key": "gender_code",
+							"value": "девочка"
+						},
+						{
+							"key": "breed_code",
+							"value": "корелла"
+						},
+						{
+							"key": "species_name",
+							"value": "собака"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
